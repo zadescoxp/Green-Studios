@@ -26,17 +26,16 @@ export default function Contact() {
       <div className="w-1/2 h-full bg-[url('/contact_bg.png')] bg-no-repeat bg-center bg-cover relative">
         <span className="absolute bottom-0 w-full left-0 flex items-end justify-between p-10">
           <span className="flex items-start flex-col justify-center text-[5rem] font-semibold font-sans text-white leading-16 tracking-tighter">
-            <h2>After</h2>
-            <h2>Burner</h2>
-            <h2>Studios</h2>
+            <h2>Green</h2>
+            <h2>Studios.</h2>
           </span>
           <p className="text-sm font-sans font-regular text-white">
-            Copyright 2025 © After Burner Studios
+            Copyright 2025 © Green Studios
           </p>
         </span>
       </div>
 
-      <div className="h-full w-1/2 flex items-center justify-center">
+      <div className="h-full w-1/2 flex items-center justify-center font-sans">
         <motion.div 
           className="w-[80%] max-w-md p-8 rounded-2xl bg-white shadow-xl"
           initial={{ opacity: 0, y: 20 }}
@@ -81,7 +80,7 @@ export default function Contact() {
                   id="name"
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+                  className="w-full outline-none px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
                   required
                 />
               </div>
@@ -95,7 +94,7 @@ export default function Contact() {
                   id="email"
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+                  className="w-full outline-none px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
                   required
                 />
               </div>
@@ -109,7 +108,7 @@ export default function Contact() {
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   rows={4}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all resize-none"
+                  className="w-full outline-none px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all resize-none"
                   required
                 />
               </div>
