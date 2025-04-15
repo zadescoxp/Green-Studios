@@ -1,5 +1,6 @@
 import About from "@/components/general/about";
 import Contact from "@/components/general/contact";
+import Content from "@/components/general/content";
 import Goals from "@/components/general/goals";
 import Home from "@/components/general/home";
 import Navbar from "@/components/UI/navbar";
@@ -13,6 +14,7 @@ export default function Main() {
         <Home />
         <About />
         <Goals />
+        <Content />
         <Contact />
       </Lenis>
     </div>
