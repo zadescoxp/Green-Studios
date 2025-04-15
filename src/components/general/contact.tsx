@@ -66,7 +66,7 @@ export default function Contact() {
                 </svg>
               </div>
               <h2 className="text-2xl font-bold text-gray-800 mb-2">Message Sent!</h2>
-              <p className="text-gray-600">We'll get back to you soon.</p>
+              <p className="text-gray-600">We&apos;ll get back to you soon.</p>
             </motion.div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-6">
