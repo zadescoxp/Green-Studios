@@ -21,9 +21,9 @@ const ppi = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "After Burner Studios",
+  title: "Green Studios",
   description:
-    "After Burner Studios is a service based agency that specializes in software development and product design.",
+    "Green Studios is a green energy based agency",
 };
 
 export default function RootLayout({

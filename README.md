@@ -1,36 +1,138 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Green Studios - Sustainable Energy Solutions
 
-## Getting Started
+A modern, responsive website showcasing Green Studios' commitment to sustainable energy solutions and environmental innovation.
 
-First, run the development server:
+## 🚀 Features
 
+- **Modern UI/UX Design**
+  - Clean, minimalist interface
+  - Smooth animations and transitions
+  - Responsive layout for all devices
+  - Beautiful typography and spacing
+
+- **Interactive Components**
+  - Animated loading screen
+  - Smooth scroll animations
+  - Contact form with success feedback
+  - Dynamic navigation
+
+- **Pages**
+  - Home: Showcases the company's vision
+  - About: Detailed information about the company
+  - Goals: Displays company objectives and achievements
+  - Contact: Interactive contact form
+
+## 🛠️ Tech Stack
+
+- **Frontend**
+  - Next.js 13+ (App Router)
+  - TypeScript
+  - Tailwind CSS
+  - Framer Motion
+  - Lucide Icons
+
+## 📦 Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/green-studios.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+cd green-studios
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## 🎨 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+green-studios/
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   ├── about/
+│   ├── contact/
+│   └── goals/
+├── src/
+│   ├── components/
+│   │   ├── general/
+│   │   └── UI/
+│   └── utils/
+├── public/
+└── package.json
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🖼️ Image Assets
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Place your images in the `public` directory:
+- `bg.jpg` - Home page background
+- `goals.jpg` - Goals page background
+- `contact_bg.png` - Contact page background
+- `scroll.svg` - Scroll indicator
+- `arrow.svg` - Arrow icon
 
-## Deploy on Vercel
+## 🎯 Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Navigation
+- Use the navigation bar to move between different sections
+- Smooth scroll animations enhance the user experience
+- Responsive design works on all devices
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Contact Form
+1. Fill in your name, email, and message
+2. Click "Send Message"
+3. A success message will appear
+4. The form will reset after 3 seconds
+
+### Customization
+- Modify colors in `tailwind.config.js`
+- Update content in respective page components
+- Add new pages in the `app` directory
+- Customize animations in `utils/variants.ts`
+
+## 🔧 Development
+
+### Adding New Pages
+1. Create a new directory in `app`
+2. Add `page.tsx` with your component
+3. Update navigation in `navbar.tsx`
+
+### Styling
+- Use Tailwind CSS classes
+- Follow the existing design system
+- Maintain consistent spacing and typography
+
+### Animations
+- Use Framer Motion for animations
+- Check `utils/variants.ts` for animation presets
+- Keep animations subtle and purposeful
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👥 Team
+
+- [Your Name] - Lead Developer
+- [Team Member] - Designer
+- [Team Member] - Content Writer
+
+## 📞 Contact
+
+For any queries or support, please reach out through the contact form on the website.
